@@ -1,0 +1,77 @@
+header{
+    background-color: var(--footer-bg);
+    color: var(--white);
+    padding: 0.6rem;
+ 
+ & .fa-solid{
+     color: var(--white);
+ }
+ 
+ 
+    & .logo .fa-solid{
+     font-size: 1.5rem;
+    }
+ 
+    & .sign-in:hover,
+    & .register:hover{
+     border: 1px solid rgb(152, 154, 189);
+     padding: 0.5rem 1.1rem;
+    }
+ 
+ & .cart:hover{
+     border: 1px solid rgb(152, 154, 189);
+     padding: 0.5rem 1.1rem 0.5rem 0.7rem;
+ }
+ 
+ }
+
+ section.cart article.flex{
+background-color: var(--white);
+border-top: 2px solid var(--blue-button);
+margin-top: 1.8rem;
+
+justify-content: space-between;
+max-width: 450px;
+margin-inline: auto;
+border-radius: 4px;
+font-weight: 500;
+
+box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+rgba(0, 0, 0, 0.14) 0px 1px 1px 0px,
+ rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+
+
+& .fa-trash-can{
+    color: var(--red-button);
+    margin-left: 1rem;
+}
+
+& .quantity {
+    background-color: var(--blue-button);
+color: var(--white);
+font-size: 0.8rem;
+height: 21px;
+width: 21px;
+border-radius: 50%;
+justify-content: center;
+margin-inline: 0.4rem;
+}
+& button.increase{
+    color: var(--blue-button);
+    font-size: 1.4rem;
+}
+
+
+
+ }
+
+ button.clear{
+
+background-color: var(--red-button);
+color: var(--white);
+
+margin-top: 1rem;
+border-radius: 4px;
+padding: 6px 8px;
+font-size: 0.8rem;
+ }
